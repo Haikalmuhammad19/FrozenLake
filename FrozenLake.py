@@ -47,3 +47,11 @@ def create_frozen_lake_gif():
 
 # Panggil fungsi untuk membuat GIF
 create_frozen_lake_gif()
+
+# Penyesuaian tambahan
+num_episodes = 10  # Misalnya, di sini Anda dapat menentukan jumlah episode
+rewards_all_episodes = []
+for episode in range(num_episodes):
+    state = env.reset()
+    state = 0
+    done = False
